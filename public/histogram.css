@@ -1,0 +1,29 @@
+h2{
+  color:#B43448;
+}
+
+.inlineblock {
+  display: inline-block;
+  width: 500px;
+  margin: 5px;
+  background-color: #E8F2F3;
+  border-style: solid;
+  border: 2px solid #E5F0EC;
+  border-radius: 5px;
+  padding: 25px;
+  vertical-align: top;
+}
+
+/*#left {
+  background-color: #E8F2F3;
+  border-style: solid;
+  border: 2px solid #E5F0EC;
+  border-radius: 5px
+}
+
+#right {
+  background-color: #E8F2F3;
+  border-style: solid;
+  border: 2px solid #E5F0EC;
+  border-radius: 5px
+}*/
