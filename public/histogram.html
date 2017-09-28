@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>Histogram Generator</title>
+  <link rel="stylesheet" href="histogram.css">
+  <script src="histogram.js"></script> 
 </head>
 
-<link rel="stylesheet" href="histogram.css">
 
 <body>
   <div class="title">
@@ -13,72 +14,103 @@
     </div>
 
 
-    <div class="inlineblock">
+    <div class="inlineblock1">
         <h2>Lower bounds</h2>
-        <form class = "left" action="">
-          Max
-          <input type="text" name ="max" value="100.00">
+        <div class ="lowerbounds">
+          <label for="max">Max</label>
+          <input id ="max" type="text" name ="max" value="100.00">
           <br>
-          A+
-          <input type="text" name ="max" value="95.00">
+          <label for="A+">A+</label>
+          <input id="A+" type="text" name ="A+" value="95.00">
           <br>
-          A
-          <input type="text" name ="max" value="90.00">
+          <label for="A">A</label>
+          <input id="A" type="text" name ="A" value="90.00">
           <br>
-          A-
-          <input type="text" name ="max" value="85.00">
+          <label for="A-">A-</label>
+          <input id="A-" type="text" name ="A-" value="85.00">
           <br>
-          B+
-          <input type="text" name ="max" value="80.00">
+          <label for="B+">B+</label>
+          <input id="B+" type="text" name ="B+" value="80.00">
           <br>
-          B
-          <input type="text" name ="max" value="75.00">
+          <label for="B">B</label>
+          <input id="B" type="text" name ="B" value="75.00">
           <br>
-          B-
-          <input type="text" name ="max" value="70.00">
+          <label for="B-">B-</label>
+          <input id="B-" type="text" name ="B-" value="70.00">
           <br>
-          C+
-          <input type="text" name ="max" value="65.00">
+          <label for="C+">C+</label>
+          <input id="C+" type="text" name ="C+" value="65.00">
           <br>
-          C
-          <input type="text" name ="max" value="60.00">
+          <label for="C">C</label>
+          <input id="C" type="text" name ="C" value="60.00">
           <br>
-          C-
-          <input type="text" name ="max" value="55.00">
+          <label for="C-">C-</label>
+          <input id="C-" type="text" name ="C-" value="55.00">
           <br>
-          D
-          <input type="text" name ="max" value="50.00">
+          <label for="D">D</label>
+          <input id="D" type="text" name ="D" value="50.00">
           <br>
-          F
-          <input type="text" name ="max" value="0.00">
-          <br>
-        </form>
+          <label for="F">F</label>
+          <input id="F" type="text" name ="F" value="0.00">
+        </div>
       </div>
-    <div class="inlineblock">
+    <div class="inlineblock2">
       <h2>Histogram</h2>
-    <p1>
-      A+
-      <br>
-      A
-      <br>
-      A-
-      <br>
-      B+
-      <br>
-      B
-      <br>
-      B-
-      <br>
-      C+
-      <br>
-      C
-      <br>
-      C-
-      <br>
-      D
-      <br>
-      F
-    </p1>
+    
+     <table class="histogram">
+      <tr>
+      <td>A+</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>A</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>A-</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>B+</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>B</td>
+      <td>&#x263A</td>
+      </tr>
+      <tr>
+      <td>B-</td>
+      <td></td>
+      </tr>
+      <tr>
+      <td>C+</td>
+      <td>&#x2611</td>
+      </tr>
+      <tr>
+      <td>C</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td id="5">C-</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>D</td>
+      <td>&#x25AE</td>
+      </tr>
+      <tr>
+      <td>F</td>
+      <td>&#x25AE</td>
+      </tr>
+     </table>
+
+      </div>
+<div class="testspace">
+  <button onclick="myFunction()">Click me</button>
+  <p id="demo"></p>
   </div>
+<script>
+  setup();
+</script>
 </body>
 </html>
