@@ -12,6 +12,7 @@
     <div>
       <h1>Histogram Generator</h1>
     </div>
+  </div>
 
 
     <div class="inlineblock1">
@@ -53,64 +54,62 @@
           <label for="F">F</label>
           <input id="F" type="text" name ="F" value="0.00">
         </div>
-      </div>
+    </div>
+
     <div class="inlineblock2">
       <h2>Histogram</h2>
     
-     <table class="histogram">
-      <tr>
-      <td>A+</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>A</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>A-</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>B+</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>B</td>
-      <td>&#x263A</td>
-      </tr>
-      <tr>
-      <td>B-</td>
-      <td></td>
-      </tr>
-      <tr>
-      <td>C+</td>
-      <td>&#x2611</td>
-      </tr>
-      <tr>
-      <td>C</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td id="5">C-</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>D</td>
-      <td>&#x25AE</td>
-      </tr>
-      <tr>
-      <td>F</td>
-      <td>&#x25AE</td>
-      </tr>
-     </table>
+        <div class="histogram">
+            <div class="grades">A+</div>
+            <div id ="histA+Num" class="graphNum"></div>
+            <div id ="histA+" class="graph"></div>
+            <br>
+            <div class="grades">A</div>
+            <div id ="histANum" class="graphNum"></div>
+            <div id ="histA" class="graph"></div>
+            <br>
+            <div class="grades">A-</div>
+            <div id ="histA-Num" class="graphNum"></div>
+            <div id = "histA-" class="graph"></div>
+            <br>
+            <div class="grades">B+</div>
+            <div id ="histB+Num" class="graphNum"></div>
+            <div id = "histB+" class="graph"></div>
+            <br>
+            <div class="grades">B</div>
+            <div id ="histBNum" class="graphNum"></div>
+            <div id = "histB" class="graph"></div>
+            <br>
+            <div class="grades">B-</div>
+            <div id ="histB-Num" class="graphNum"></div>
+            <div id = "histB-" class="graph"></div>
+            <br>
+            <div class="grades">C+</div>
+            <div id ="histC+Num" class="graphNum"></div>
+            <div id = "histC+" class="graph"></div>
+            <br>
+            <div class="grades">C</div>
+            <div id ="histCNum" class="graphNum"></div>
+            <div id = "histC" class="graph"></div>
+            <br>
+            <div class="grades">C-</div>
+            <div id ="histC-Num" class="graphNum"></div>
+            <div id = "histC-"class="graph"></div>
+            <br>
+            <div class="grades">D</div>
+            <div id ="histDNum" class="graphNum"></div>
+            <div id = "histD" class="graph"></div>
+            <br>
+            <div class="grades">F</div>
+            <div id ="histFNum" class="graphNum"></div>
+            <div id = "histF" class="graph"></div>
+        </div>        
+    </div>
+     
 
-      </div>
-<div class="testspace">
-  <button onclick="myFunction()">Click me</button>
-  <p id="demo"></p>
-  </div>
-<script>
-  setup();
-</script>
+
+    <script>
+        setup();
+    </script>
 </body>
 </html>

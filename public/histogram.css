@@ -7,7 +7,7 @@ h2{
   color:#B43448;
   font-family: Courier;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .inlineblock1 {
@@ -31,12 +31,14 @@ h2{
   border-radius: 5px;
   padding-left: 20px;
   vertical-align: top;
+  height: 325px
 }
 
 input {
   padding: 5px;
   text-align: right;
   width: 50px; 
+  font-family: Georgia;
 }
 
 label {
@@ -54,7 +56,24 @@ float:left;
   padding-left: 20px;
 }
 
-td {
-padding: 3px;
-word-spacing: -5px;
+.grades {
+    padding-left: 20px;
+    display:inline-block;
+    height: 23px;
+    width:30px;
+}
+.graph {
+    display: inline-block;
+    width:0px;
+    height:9px;
+    border: 1px solid black;
+    background: lightblue;
+    transition: width 1.5s;
+}
+
+.graphNum
+{
+    display: inline-block;
+    width: 20px;
+    text-align: right;
 }
